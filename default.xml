@@ -7,4 +7,6 @@
 				sync-j="4" />
 	<!-- Simple include of binary manifest -->
 	<include name="muppets.xml" />
+	<!-- Also adding manifest itself -->
+	<project name="Jhydrogene/manifests" path="manifests" />
 </manifest>
