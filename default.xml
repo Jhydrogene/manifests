@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github"
+			fetch=".." />
+	<default 	revision="cm-13.0"
+				remote="github"
+				sync-j="4" />
+	<!-- Simple include of binary manifest -->
+	<include name="muppets.xml" />
+</manifest>
